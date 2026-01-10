@@ -1,3 +1,7 @@
+router.get('/products-test', (req, res) => {
+  res.json({ message: 'Products route OK 🚀' });
+});
+
 const express = require('express');
 const router = express.Router();
 

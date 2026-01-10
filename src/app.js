@@ -14,8 +14,8 @@ app.get('/', (req, res) => {
   res.send('FnFirst Backend is running 🚀');
 });
 
-app.use('/api/products', productRoutes);
-app.use('/api/categories', categoryRoutes);
+// app.use('/api/products', productRoutes);
+// app.use('/api/categories', categoryRoutes);
 
 
 module.exports = app;
